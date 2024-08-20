@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./Frames.css";
-import { motion, useScroll, useTransform } from "framer-motion";
+import { color, motion, useScroll, useTransform } from "framer-motion";
 
 const Frames = () => {
   const canvasRef = useRef(null);
@@ -52,7 +52,12 @@ const Frames = () => {
         const offsetY = (canvasRef.current.height - newHeight) / 2;
         context.imageSmoothingEnabled = true;
         context.imageSmoothingQuality = "high";
-        context.clearRect(0, 0, canvasRef.current.width, canvasRef.current.height);
+        context.clearRect(
+          0,
+          0,
+          canvasRef.current.width,
+          canvasRef.current.height
+        );
         context.drawImage(img, offsetX, offsetY, newWidth, newHeight);
       }
     }
@@ -61,6 +66,15 @@ const Frames = () => {
   useEffect(() => {
     return animatedIndex.onChange((latestIndex) => {
       loadImage(Math.floor(latestIndex), canvasRef.current.getContext("2d"));
+      if (latestIndex < 40.3) {
+        console.log("done");
+      }
+      else if(latestIndex > 40.3 && latestIndex < 80.6) {
+        console.log("praxx")
+      } 
+      else{
+        console.log ("hiii")
+      }
     });
   }, [animatedIndex]);
 

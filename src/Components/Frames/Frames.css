@@ -1,7 +1,6 @@
 .Frames__parent {
-  height: 400vh;
-  width: 100%;
-  background-color: bisque;
+  height: 500vh;
+  width: 100%; 
   position: relative;
  
 }
@@ -9,7 +8,6 @@
 .Frames__children{
     width: 100%;
     height: 100vh;
-    background-color: brown;
     position: sticky;
     left: 0%;
     top: 0%;
@@ -19,3 +17,4 @@
     width: 100%;
     height: 100%;
 }
+
