@@ -1,11 +1,13 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef } from "react";  
 import "./Frames.css";
 import { color, motion, useScroll, useTransform } from "framer-motion";
+import framesOne from "./FrameComponents/FramesComponentOne/framesOne";
 
 const Frames = () => {
   const canvasRef = useRef(null);
   const [currentIndex, setCurrentIndex] = useState(1);
   const [imagesLoaded, setImagesLoaded] = useState(0);
+  const [currentValue, setcurrentValue] = useState(0);
   const maxIndex = 121;
   const imagesRef = useRef([]);
 
@@ -64,24 +66,22 @@ const Frames = () => {
   };
 
   useEffect(() => {
-    return animatedIndex.onChange((latestIndex) => {
+    return animatedIndex.on("change", (latestIndex) => {
       loadImage(Math.floor(latestIndex), canvasRef.current.getContext("2d"));
-      if (latestIndex < 40.3) {
-        console.log("done");
-      }
-      else if(latestIndex > 40.3 && latestIndex < 80.6) {
-        console.log("praxx")
-      } 
-      else{
-        console.log ("hiii")
-      }
+      setcurrentValue(latestIndex);
     });
   }, [animatedIndex]);
+  useEffect(() => {
+    console.log(currentValue);
+  }, [currentValue]);
 
   return (
     <div className="Frames__parent">
-      <motion.div className="Frames__children" style={{ height: "100vh" }}>
+      <motion.div className="Frames__children">
         <canvas ref={canvasRef} id="FrameImages"></canvas>
+        <div className="frames__components">
+          {currentValue <= 43 ? <framesOne/> : null}
+        </div>
       </motion.div>
     </div>
   );
