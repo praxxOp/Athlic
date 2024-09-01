@@ -1,0 +1,22 @@
+.framestwo__main {
+  width: 100%;
+  height: 100%;
+}
+.framestwo__main__left {
+  position: absolute;
+  bottom: 15%;
+  left: 13%;
+  width: 25vw;
+  height: 20vh;
+  padding-left: 10px;
+}
+.framestwo__main__left h1 {
+  font-family: zentry;
+  font-size: 4vw;
+  color: black;
+}
+
+.framestwo__main__left p {
+  font-family: robert;
+  color: black;
+}

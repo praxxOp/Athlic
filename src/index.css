@@ -28,4 +28,7 @@ html {
     font-family: zentry;
     src: url(./fonts/ZENTRY-Regular.ttf);
   }
-  
+  @font-face {
+    font-family: robert;
+    src: url(./fonts/Roobert-Medium.ttf);
+  }

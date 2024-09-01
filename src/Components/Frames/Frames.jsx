@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./Frames.css";
-import { color, motion, useScroll, useTransform } from "framer-motion";
+import { motion, useScroll, useTransform } from "framer-motion";
 import FramesOne from "./FrameComponents/FramesComponentOne/framesOne";
-
+import FramesTwo from "./FrameComponents/FramesComponentTwo/framesTwo";
 const Frames = () => {
   const canvasRef = useRef(null);
   const [currentIndex, setCurrentIndex] = useState(1);
@@ -77,16 +77,26 @@ const Frames = () => {
 
   return (
     <div className="Frames__parent">
-      <motion.div  className="Frames__children">
-        <motion.canvas ref={canvasRef} id="FrameImages"
-        animate={{
-          width : currentValue <= 43 ? "100%" : "60%",
-          height : currentValue <= 43 ? "100%" : "95%",
-          borderRadius :  currentValue <= 43 ? "0" : "20px",
-          marginLeft :  currentValue <= 43 ? "0" : "20px"
-        }}></motion.canvas>
+      <motion.div className="Frames__children">
+        <motion.canvas
+          ref={canvasRef}
+          id="FrameImages"
+          animate={{
+            width: currentValue <= 43 ? "100%" : "35%",
+            height: currentValue <= 43 ? "100%" : "97%",
+            borderRadius: currentValue <= 43 ? "0" : "10px",
+            marginLeft : currentValue <= 43 ? "0" : "12vw"
+          }}
+          transition={{
+            duration: 1,
+          }}
+        ></motion.canvas>
         <div className="frames__components">
-          {currentValue <= 43 ? <FramesOne /> : null}
+          {currentValue <= 43 ? (
+            <FramesOne />
+          ) : currentValue >= 43 && currentValue <= 82 ? (
+            <FramesTwo />
+          ) : null}
         </div>
       </motion.div>
     </div>
