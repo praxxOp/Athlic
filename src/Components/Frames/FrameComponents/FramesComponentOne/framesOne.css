@@ -5,7 +5,8 @@
 .framesOne__heading {
   overflow: hidden;
   position: absolute;
-  right: 8%;
+  right: 50%;
+  transform: translateX(50%);
   top: 8%;
 }
 
@@ -21,6 +22,6 @@
 .framesOne__heading h2 {
   font-family: zentry;
   color: #9500ff;
-  font-size: 2vw;
-  
+  font-size: 1.2vw;
+  text-align: center;
 }

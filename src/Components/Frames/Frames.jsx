@@ -1,8 +1,7 @@
-import React, { useState, useEffect, useRef } from "react";  
+import React, { useState, useEffect, useRef } from "react";
 import "./Frames.css";
 import { color, motion, useScroll, useTransform } from "framer-motion";
 import FramesOne from "./FrameComponents/FramesComponentOne/framesOne";
-
 
 const Frames = () => {
   const canvasRef = useRef(null);
@@ -78,10 +77,16 @@ const Frames = () => {
 
   return (
     <div className="Frames__parent">
-      <motion.div className="Frames__children">
-        <canvas ref={canvasRef} id="FrameImages"></canvas>
+      <motion.div  className="Frames__children">
+        <motion.canvas ref={canvasRef} id="FrameImages"
+        animate={{
+          width : currentValue <= 43 ? "100%" : "60%",
+          height : currentValue <= 43 ? "100%" : "95%",
+          borderRadius :  currentValue <= 43 ? "0" : "20px",
+          marginLeft :  currentValue <= 43 ? "0" : "20px"
+        }}></motion.canvas>
         <div className="frames__components">
-          {currentValue <= 43 ? <FramesOne/> : null}
+          {currentValue <= 43 ? <FramesOne /> : null}
         </div>
       </motion.div>
     </div>
