@@ -1,8 +1,22 @@
 import React from "react";
 import "./framesTwo.css";
+import { motion } from "framer-motion";
+import CoinImage from "/Assets/coinImage.png";
+import SportImage from "/Assets/SportImage.png"
 const framesTwo = () => {
   return (
-    <div className="framestwo__main">
+    <motion.div
+      initial={{
+        opacity: 0,
+      }}
+      animate={{
+        opacity: 1,
+      }}
+      transition={{
+        duration: 1,
+      }}
+      className="framestwo__main"
+    >
       <div className="framestwo__main__left">
         <h1>MANAGE.</h1>
         <p>
@@ -10,7 +24,50 @@ const framesTwo = () => {
           Athlic—streamline bookings, maintenance, and scheduling.
         </p>
       </div>
-    </div>
+      <div className="framestwo__main__right">
+        <div className="framestwo__main__right__box">
+          <h1>SPORTS.</h1>
+          <p>
+            Manage a wide range of sports facilities with Athlic—football
+            fields, gymnastics arenas, javelin throw grounds, swimming pools,
+            and indoor sports complexes, all in one place.
+          </p>
+          <h3>COMING SOON</h3>
+          <motion.img
+            animate={{
+              y: [0, -7, 0],
+            }}
+            transition={{
+              repeat :  Infinity,
+              repeatType: "loop",
+              duration: 2,
+            }}
+            src={SportImage}
+            alt="Image of coins"
+          />
+        </div>
+        <div className="framestwo__main__right__box">
+          <h1>PRICING.</h1>
+          <p>
+            Flexible pricing plans tailored to your club's needs—get the best
+            value for managing your sports facilities with Athlic.
+          </p>
+          <h3>COMING SOON</h3>
+          <motion.img
+            animate={{
+              y: [0, -7, 0],
+            }}
+            transition={{
+              repeat :  Infinity,
+              repeatType: "loop",
+              duration: 2,
+            }}
+            src={CoinImage}
+            alt="Image of coins"
+          />
+        </div>
+      </div>
+    </motion.div>
   );
 };
 
