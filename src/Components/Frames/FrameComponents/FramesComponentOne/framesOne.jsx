@@ -1,6 +1,7 @@
 import React from "react";
 import "./framesOne.css";
 import { AnimatePresence, easeOut, motion } from "framer-motion";
+import { FaAngleDoubleDown } from "react-icons/fa";
 
 const framesOne = () => {
   return (
@@ -25,6 +26,23 @@ const framesOne = () => {
             <h2>ATHLIC</h2>
           </AnimatePresence>
         </div>
+        <motion.h3
+          initial={{
+            translateX : "50%"
+          }}
+          animate={{
+            y: [0, -7, 0],
+          }}
+          transition={{
+            repeat: Infinity,
+            repeatType: "loop",
+            duration: 2,
+          }}
+        >
+          SCROLL DOWM <FaAngleDoubleDown color="white"  style={{
+            marginBottom : "-3px"
+          }}/>
+        </motion.h3>
       </div>
     </>
   );

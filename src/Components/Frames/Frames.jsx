@@ -78,9 +78,6 @@ const Frames = () => {
     });
   }, [animatedIndex]);
 
-  useEffect(() => {
-    console.log(currentValue);
-  }, [currentValue]);
 
   return (
     <div className="Frames__parent">
