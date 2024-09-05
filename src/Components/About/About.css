@@ -32,12 +32,34 @@
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: 10px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.stats__section__left h4{
+  font-family: robert;
+  color: #DFDFF2;
+}
+
+.stats__section__left h1{
+  margin-top: 20%;
+  font-family: zentry;
+  font-size: 10vw;
+  color: #DFDFF2;
 }
 .stats__section__right {
   height: 90vh;
   width: 42%;
-  background-color: #DFDFF2;
+  background-color: #15FF9E;
   border-radius: 10px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.stats__section__right h4{
+  font-family: robert;
+}
+.stats__section__right h1{
+  font-family: zentry;
+  font-size: 10vw;
 }
 .stats__section__down {
   width: 100%;
