@@ -3,6 +3,7 @@ import Frames from "./Components/Frames/Frames";
 import About from "./Components/About/About";
 import { ReactLenis, useLenis } from "lenis/react";
 import PortfolioLink from "./Components/portfolioLink/PortfolioLink";
+import Footer from "./Components/footer/Footer";
 const App = () => {
   const lenis = new useLenis()
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Frames />
         <PortfolioLink/>
         <About />
+        <Footer/>
       </ReactLenis>
     </>
   );

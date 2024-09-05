@@ -36,11 +36,7 @@
 .stats__section__right {
   height: 90vh;
   width: 42%;
-  background: rgba(3, 3, 3, 0.25);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  background-color: #DFDFF2;
   border-radius: 10px;
 }
 .stats__section__down {

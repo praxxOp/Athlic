@@ -18,7 +18,7 @@ const Frames = () => {
   const imagesRef = useRef([]);
 
   const { scrollYProgress } = useScroll();
-  const animatedIndex = useTransform(scrollYProgress, [0, 1], [1, maxIndex]);
+  const animatedIndex = useTransform(scrollYProgress, [0, 0.7], [1, maxIndex]);
 
   useEffect(() => {
     const context = canvasRef.current.getContext("2d");
