@@ -1,5 +1,7 @@
 import React from "react";
 import "./About.css";
+import ThumbsupGuy from "/Assets/stats-Image.png";
+
 const About = () => {
   return (
     <>
@@ -13,6 +15,12 @@ const About = () => {
             <div className="stats__section__right">
               <h4>Facility Bookings Per Month.</h4>
               <h1>1000+</h1>
+              <p>
+                Manage and schedule various sports facilities with ease. From
+                booking football fields to indoor courts, our platform ensures
+                smooth coordination, helping clubs and athletes optimize their
+                amenities
+              </p>
             </div>
           </div>
           <div className="stats__section__down">
@@ -24,6 +32,7 @@ const About = () => {
             >
               <h4>User Satisfaction.</h4>
               <h1>99%</h1>
+              <img src={ThumbsupGuy} alt="Image of a guy" />
             </div>
             <div
               className="stats__section__left"

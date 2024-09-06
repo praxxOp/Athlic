@@ -53,6 +53,7 @@
   border-radius: 10px;
   padding-top: 20px;
   padding-left: 20px;
+  position: relative;
 }
 .stats__section__right h4{
   font-family: robert;
@@ -60,6 +61,20 @@
 .stats__section__right h1{
   font-family: zentry;
   font-size: 10vw;
+}
+.stats__section__right img{
+  width: 30vw;
+  margin-top: -15px;
+  height: 70vh;
+  filter: brightness(0) saturate(0%);
+}
+.stats__section__right p{
+  font-family: robert;
+  width: 25vw;
+  font-weight: 500;
+  position: absolute;
+  bottom: 8%;
+
 }
 .stats__section__down {
   width: 100%;
