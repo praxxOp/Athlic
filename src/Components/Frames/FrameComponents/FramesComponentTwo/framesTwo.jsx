@@ -32,7 +32,7 @@ const framesTwo = () => {
             fields, gymnastics arenas, javelin throw grounds, swimming pools,
             and indoor sports complexes, all in one place.
           </p>
-          <h3>COMING SOON</h3>
+          <h3>LEARN MORE</h3>
           <motion.img
             animate={{
               y: [0, -7, 0],
@@ -52,7 +52,7 @@ const framesTwo = () => {
             Flexible pricing plans tailored to your club's needs—get the best
             value for managing your sports facilities with Athlic.
           </p>
-          <h3>COMING SOON</h3>
+          <h3>LEARN MORE</h3>
           <motion.img
             animate={{
               y: [0, -7, 0],
