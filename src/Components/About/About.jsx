@@ -41,7 +41,7 @@ const About = () => {
               }}
             >
               <h4>Sports Supported.</h4>
-              <h1>10+</h1>
+              <h1>5+</h1>
             </div>
           </div>
         </div>

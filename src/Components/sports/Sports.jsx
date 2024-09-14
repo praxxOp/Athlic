@@ -4,7 +4,13 @@ const Sports = () => {
   return (
     <>
       <div className="sports__main">
-        hiiihi
+        <div className="sports__main__heading">
+            <h1>SPORTS</h1>
+            <h2>Supported Sports.</h2>
+        </div>
+        <div className="sports__main__GroupSection">
+            
+        </div>
       </div>
 
     </>

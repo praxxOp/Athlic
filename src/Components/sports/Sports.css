@@ -1,0 +1,31 @@
+.sports__main {
+  min-height: 100vh;
+  background-color: #15ff9e;
+  width: 100%;
+}
+
+.sports__main__heading {
+  width: 100%;
+  height: 50vh;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.sports__main__heading h1 {
+  font-size: 20vw;
+  font-family: fk;
+  letter-spacing: 5px;
+  line-height: 85%;
+}
+
+.sports__main__heading h2 {
+  font-family: robert;
+  font-size: 1.2vw;
+}
+.sports__main__GroupSection {
+  height: 100vh;
+}
+

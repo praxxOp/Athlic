@@ -4,6 +4,7 @@ import About from "./Components/About/About";
 import { ReactLenis, useLenis } from "lenis/react";
 import PortfolioLink from "./Components/portfolioLink/PortfolioLink";
 import Footer from "./Components/footer/Footer";
+import "./App.css"
 const App = () => {
   const lenis = new useLenis()
   return (
