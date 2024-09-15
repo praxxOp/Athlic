@@ -27,5 +27,25 @@
 }
 .sports__main__GroupSection {
   height: 100vh;
+  width: 100%;
+  display: flex;
 }
 
+.sports__main__GroupSection__left{
+width: 50%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.GroupSection__left__container{
+  width: 100%;
+height: 95%;
+background-color: black;
+}
+
+.sports__main__GroupSection__right {
+  width: 50%;
+  height: 100%;
+  background-color: black;
+}

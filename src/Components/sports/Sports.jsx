@@ -1,6 +1,7 @@
 import React from "react";
 import "./Sports.css";
 const Sports = () => {
+  
   return (
     <>
       <div className="sports__main">
@@ -9,7 +10,14 @@ const Sports = () => {
             <h2>Supported Sports.</h2>
         </div>
         <div className="sports__main__GroupSection">
-            
+            <div className="sports__main__GroupSection__left">
+              <div className="GroupSection__left__container">
+
+              </div>
+               </div>
+            <div className="sports__main__GroupSection__right">
+
+            </div>
         </div>
       </div>
 
