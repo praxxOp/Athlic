@@ -58,6 +58,8 @@
 }
 
 .framestwo__main__right__box h3 {
+  text-decoration: none;
+  color: white;
   position: relative;
   cursor: pointer;
   bottom: -30%;

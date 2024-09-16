@@ -3,7 +3,9 @@ import "./framesTwo.css";
 import { motion } from "framer-motion";
 import CoinImage from "/Assets/coinImage.png";
 import SportImage from "/Assets/SportImage.png";
+import { Link } from "react-router-dom";
 const framesTwo = () => {
+  
   return (
     <motion.div
       initial={{
@@ -32,7 +34,7 @@ const framesTwo = () => {
             fields, gymnastics arenas, Cricket Grounds, swimming pools, and
             indoor sports complexes, all in one place.
           </p>
-          <h3>LEARN MORE</h3>
+          <Link to= "/sports" style={{textDecoration : "none"}}> <h3>LEARN MORE</h3> </Link>
           <motion.img
             animate={{
               y: [0, -7, 0],
