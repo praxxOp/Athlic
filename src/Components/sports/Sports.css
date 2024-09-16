@@ -1,13 +1,13 @@
 .sports__main {
   min-height: 100vh;
-  background-color: #15ff9e;
+  background-color: black;
   width: 100%;
 }
 
 .sports__main__heading {
   width: 100%;
   height: 50vh;
-  color: black;
+ 
   display: flex;
   align-items: center;
   justify-content: center;
@@ -19,33 +19,72 @@
   font-family: fk;
   letter-spacing: 5px;
   line-height: 85%;
+  color: #C1C1BD;
 }
 
 .sports__main__heading h2 {
   font-family: robert;
   font-size: 1.2vw;
+  color: #C1C1BD;
 }
 .sports__main__GroupSection {
   height: 100vh;
   width: 100%;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.sports__main__GroupSection__left{
-width: 50%;
-height: 100%;
-display: flex;
-align-items: center;
-justify-content: center;
-}
-.GroupSection__left__container{
-  width: 100%;
-height: 95%;
-background-color: black;
-}
-
-.sports__main__GroupSection__right {
+.sports__main__GroupSection__left {
   width: 50%;
   height: 100%;
-  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.GroupSection__left__container {
+  width: 98.5%;
+  height: 95%;
+  background: rgba( 3, 3, 3, 0.25 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  border-radius: 10px;
+  
+  padding-top: 20px;
+  padding-left: 20px;
+  
+}
+.GroupSection__left__container h1{
+  font-family: zentry;
+  color: #C1C1BD;
+  
+}
+.sports__main__GroupSection__right {
+  width: 49%;
+  height: 100%;
+  display: grid;
+  align-content: center;
+  grid-template-columns: 24.5vw 24vw;
+  grid-template-rows: 47.9vh 47vh;
+}
+
+.GroupSection__right__containers {
+  width: 24vw;
+  height: 47vh;
+  background: rgba( 3, 3, 3, 0.25 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.GroupSection__right__containers__heading h1 {
+  color: #C1C1BD;
+
+  font-family: zentry;
 }
