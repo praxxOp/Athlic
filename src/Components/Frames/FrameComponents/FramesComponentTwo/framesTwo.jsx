@@ -2,7 +2,7 @@ import React from "react";
 import "./framesTwo.css";
 import { motion } from "framer-motion";
 import CoinImage from "/Assets/coinImage.png";
-import SportImage from "/Assets/SportImage.png"
+import SportImage from "/Assets/SportImage.png";
 const framesTwo = () => {
   return (
     <motion.div
@@ -29,8 +29,8 @@ const framesTwo = () => {
           <h1>SPORTS.</h1>
           <p>
             Manage a wide range of sports facilities with Athlic—football
-            fields, gymnastics arenas, javelin throw grounds, swimming pools,
-            and indoor sports complexes, all in one place.
+            fields, gymnastics arenas, Cricket Grounds, swimming pools, and
+            indoor sports complexes, all in one place.
           </p>
           <h3>LEARN MORE</h3>
           <motion.img
@@ -38,7 +38,7 @@ const framesTwo = () => {
               y: [0, -7, 0],
             }}
             transition={{
-              repeat :  Infinity,
+              repeat: Infinity,
               repeatType: "loop",
               duration: 2,
             }}
@@ -58,7 +58,7 @@ const framesTwo = () => {
               y: [0, -7, 0],
             }}
             transition={{
-              repeat :  Infinity,
+              repeat: Infinity,
               repeatType: "loop",
               duration: 2,
             }}

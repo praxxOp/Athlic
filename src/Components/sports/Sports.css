@@ -7,11 +7,11 @@
 .sports__main__heading {
   width: 100%;
   height: 50vh;
- 
+  padding-left: 20px;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
   flex-direction: column;
+  justify-content: center;
 }
 
 .sports__main__heading h1 {
@@ -19,13 +19,13 @@
   font-family: fk;
   letter-spacing: 5px;
   line-height: 85%;
-  color: #C1C1BD;
+  color: #c1c1bd;
 }
 
 .sports__main__heading h2 {
   font-family: robert;
   font-size: 1.2vw;
-  color: #C1C1BD;
+  color: #c1c1bd;
 }
 .sports__main__GroupSection {
   height: 100vh;
@@ -45,21 +45,29 @@
 .GroupSection__left__container {
   width: 98.5%;
   height: 95%;
-  background: rgba( 3, 3, 3, 0.25 );
-  backdrop-filter: blur( 4px );
-  -webkit-backdrop-filter: blur( 4px );
-  border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
-  border-radius: 10px;
-  
+  background: rgba(3, 3, 3, 0.25);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
   padding-top: 20px;
   padding-left: 20px;
-  
+  overflow: hidden;
 }
-.GroupSection__left__container h1{
+.GroupSection__left__container h1 {
   font-family: zentry;
-  color: #C1C1BD;
-  
+  color: #c1c1bd;
+  font-size: 1.8vw;
+}
+.GroupSection__left__container p{
+  color: #c1c1bd;
+  font-family: robert;
+  width: 25vw;
+  margin-top: 5vh;
+}
+.GroupSection__left__container img{
+  width: 50vw;
+  height: 70vh;
+  margin-top: 10vh;
 }
 .sports__main__GroupSection__right {
   width: 49%;
@@ -73,18 +81,29 @@
 .GroupSection__right__containers {
   width: 24vw;
   height: 47vh;
-  background: rgba( 3, 3, 3, 0.25 );
-  backdrop-filter: blur( 4px );
-  -webkit-backdrop-filter: blur( 4px );
-  border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
-  border-radius: 10px;
+  background: rgba(3, 3, 3, 0.25);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
   padding-top: 20px;
   padding-left: 20px;
+  overflow: hidden;
 }
 
 .GroupSection__right__containers__heading h1 {
-  color: #C1C1BD;
-
+  color: #c1c1bd;
+  font-size: 1.8vw;
   font-family: zentry;
+}
+.GroupSection__right__containers p{
+  color: #c1c1bd;
+  font-family: robert;
+  width: 15vw;
+  font-size: .9vw;
+  margin-top: 3vh;
+}
+.GroupSection__right__containers img{
+  width: 17vw;
+  height:25vh;
+  margin-top: 5vh;
 }
