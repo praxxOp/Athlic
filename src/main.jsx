@@ -9,6 +9,7 @@ import './index.css'
 import Sports from './Components/sports/Sports.jsx';
 
 
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -22,6 +23,6 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router} />
+     <RouterProvider router={router}/>
   </StrictMode>,
 )

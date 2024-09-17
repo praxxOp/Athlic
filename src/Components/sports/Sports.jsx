@@ -2,10 +2,10 @@ import React from "react";
 import "./Sports.css";
 import Football from "/Assets/Football.jpg";
 import Swimming from "/Assets/Swimming.jpg";
-import cricket from "/Assets/cricket.webp"
-import Volleyball from "/Assets/Volleyball.jpg"
-import Indoor from "/Assets/Indoor.jpg"
-
+import cricket from "/Assets/cricket.webp";
+import Volleyball from "/Assets/Volleyball.jpg";
+import Indoor from "/Assets/Indoor.jpg";
+import ScrollToTop from "../ScrollToTop";
 const Sports = () => {
   const sports = [
     {
@@ -16,22 +16,25 @@ const Sports = () => {
     },
     {
       name: "Cricket",
-      description : "Schedule slots and manage programs like coaching and training. Athlic simplifies cricket amenity management.",
-      img : cricket
+      description:
+        "Schedule slots and manage programs like coaching and training. Athlic simplifies cricket amenity management.",
+      img: cricket,
     },
     {
       name: "volleyballl",
-      description : "Schedule slots and manage coaching and training programs. Athlic streamlines volleyball amenity management.",
-      img: Volleyball
+      description:
+        "Schedule slots and manage coaching and training programs. Athlic streamlines volleyball amenity management.",
+      img: Volleyball,
     },
     {
       name: "indoor sports",
-      description : "Athlic makes indoor sports management effortless.",
-      img : Indoor
+      description: "Athlic makes indoor sports management effortless.",
+      img: Indoor,
     },
   ];
   return (
     <>
+      <ScrollToTop />
       <div className="sports__main">
         <div className="sports__main__heading">
           <h1>SPORTS</h1>
@@ -57,7 +60,7 @@ const Sports = () => {
                     <h1>{obj.name}</h1>
                   </div>
                   <p>{obj.description}</p>
-                  <img src= {obj.img} alt="" />
+                  <img src={obj.img} alt="" />
                 </div>
               );
             })}
