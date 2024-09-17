@@ -52,20 +52,19 @@
   padding-top: 20px;
   padding-left: 20px;
   overflow: hidden;
+  color: #c1c1bd;
 }
 .GroupSection__left__container h1 {
   font-family: zentry;
-  color: #c1c1bd;
   font-size: 1.8vw;
 }
-.GroupSection__left__container p{
-  color: #c1c1bd;
+.GroupSection__left__container p {
   font-family: robert;
   width: 25vw;
   margin-top: 5vh;
 }
-.GroupSection__left__container img{
-  width: 50vw;
+.GroupSection__left__container img {
+  width: 55vw;
   height: 70vh;
   margin-top: 10vh;
 }
@@ -88,22 +87,21 @@
   padding-top: 20px;
   padding-left: 20px;
   overflow: hidden;
+  color: #c1c1bd;
 }
 
 .GroupSection__right__containers__heading h1 {
-  color: #c1c1bd;
   font-size: 1.8vw;
   font-family: zentry;
 }
-.GroupSection__right__containers p{
-  color: #c1c1bd;
+.GroupSection__right__containers p {
   font-family: robert;
   width: 15vw;
-  font-size: .9vw;
+  font-size: 0.9vw;
   margin-top: 3vh;
 }
-.GroupSection__right__containers img{
+.GroupSection__right__containers img {
   width: 17vw;
-  height:25vh;
+  height: 25vh;
   margin-top: 5vh;
 }

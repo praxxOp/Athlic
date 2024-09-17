@@ -6,6 +6,7 @@ import cricket from "/Assets/cricket.webp";
 import Volleyball from "/Assets/Volleyball.jpg";
 import Indoor from "/Assets/Indoor.jpg";
 import ScrollToTop from "../ScrollToTop";
+import { motion } from "framer-motion";
 const Sports = () => {
   const sports = [
     {
@@ -42,7 +43,13 @@ const Sports = () => {
         </div>
         <div className="sports__main__GroupSection">
           <div className="sports__main__GroupSection__left">
-            <div className="GroupSection__left__container">
+            <motion.div
+              whileHover={{
+                background: "#c1c1bd",
+                color: "black",
+              }}
+              className="GroupSection__left__container"
+            >
               <h1>football</h1>
               <p>
                 Manage football fields, schedule slots, and oversee various
@@ -50,18 +57,24 @@ const Sports = () => {
                 organizing and optimizing your football amenities.
               </p>
               <img src={Football} alt="Football Field" />
-            </div>
+            </motion.div>
           </div>
           <div className="sports__main__GroupSection__right">
             {sports.map((obj) => {
               return (
-                <div className="GroupSection__right__containers">
+                <motion.div
+                  whileHover={{
+                    background: "#c1c1bd",
+                    color: "black",
+                  }}
+                  className="GroupSection__right__containers"
+                >
                   <div className="GroupSection__right__containers__heading">
                     <h1>{obj.name}</h1>
                   </div>
                   <p>{obj.description}</p>
                   <img src={obj.img} alt="" />
-                </div>
+                </motion.div>
               );
             })}
           </div>
