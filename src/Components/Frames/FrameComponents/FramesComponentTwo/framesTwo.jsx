@@ -54,7 +54,7 @@ const framesTwo = () => {
             Flexible pricing plans tailored to your club's needs—get the best
             value for managing your sports facilities with Athlic.
           </p>
-          <h3>LEARN MORE</h3>
+          <Link to= "/pricing" style={{textDecoration : "none"}}> <h3>LEARN MORE</h3> </Link>
           <motion.img
             animate={{
               y: [0, -7, 0],

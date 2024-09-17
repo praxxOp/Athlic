@@ -1,0 +1,26 @@
+.pricing__main{
+    background-color: black;
+    width: 100%;
+    height: 150vh;
+}
+.pricing__main__heading{
+    width: 100%;
+  height: 50vh;
+  padding-left: 20px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.pricing__main__heading h1{
+    font-size: 20vw;
+  font-family: fk;
+  letter-spacing: 5px;
+  line-height: 85%;
+  color: #c1c1bd;
+}
+.pricing__main__heading H2{
+    font-family: robert;
+    font-size: 1.2vw;
+    color: #c1c1bd;
+}
