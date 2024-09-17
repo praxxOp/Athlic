@@ -10,6 +10,10 @@ const Pricing = () => {
           <h1>PRICING</h1>
           <h2>Flexible pricing plans.</h2>
         </div>
+
+        <div className="pricing__section">
+            
+        </div>
       </div>
     </>
   );
