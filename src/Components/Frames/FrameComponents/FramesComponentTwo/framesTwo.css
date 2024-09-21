@@ -12,17 +12,16 @@
   left: 13%;
   width: 25vw;
   height: 20vh;
-  padding-left: 10px;
+  margin-left: 4vw;
+  
+
 }
 .framestwo__main__left h1 {
   font-family: zentry;
-  font-size: 4vw;
+  font-size: 9vw;
   color: #4b0082;
 }
-.framestwo__main__left p {
-  font-family: robert;
-  color: #8106d8;
-}
+
 .framestwo__main__right {
   width: 39vw;
   height: 97%;

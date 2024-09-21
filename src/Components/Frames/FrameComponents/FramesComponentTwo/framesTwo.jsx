@@ -20,19 +20,13 @@ const framesTwo = () => {
       className="framestwo__main"
     >
       <div className="framestwo__main__left">
-        <h1>MANAGE.</h1>
-        <p>
-          Effortlessly manage your club's sports facilities with
-          Athlic—streamline bookings, maintenance, and scheduling.
-        </p>
+        <h1>MANAGE</h1>
       </div>
       <div className="framestwo__main__right">
         <div className="framestwo__main__right__box">
-          <h1>SPORTS.</h1>
+          <h1>amenities.</h1>
           <p>
-            Manage a wide range of sports facilities with Athlic—football
-            fields, gymnastics arenas, Cricket Grounds, swimming pools, and
-            indoor sports complexes, all in one place.
+          Effortlessly manage a diverse range of amenities with Athlic.
           </p>
           <Link to= "/sports" style={{textDecoration : "none"}}> <h3>LEARN MORE</h3> </Link>
           <motion.img
@@ -52,7 +46,7 @@ const framesTwo = () => {
           <h1>PRICING.</h1>
           <p>
             Flexible pricing plans tailored to your club's needs—get the best
-            value for managing your sports facilities with Athlic.
+            value for managing your amenities with Athlic.
           </p>
           <Link to= "/pricing" style={{textDecoration : "none"}}> <h3>LEARN MORE</h3> </Link>
           <motion.img

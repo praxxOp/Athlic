@@ -4,33 +4,36 @@ import Football from "/Assets/Football.jpg";
 import Swimming from "/Assets/Swimming.jpg";
 import Gym from "/Assets/gym_center.avif";
 import Yoga from "/Assets/YogaStudios.webp";
-import hall from "/Assets/Hall.jpg";
 import ScrollToTop from "../ScrollToTop";
+import hall from "/Assets/Hall.jpg";
+
 import { motion } from "framer-motion";
 const Sports = () => {
   const sports = [
     {
       name: "Swimming Pools",
       description:
-        "Schedule pool slots and manage programs like lessons and training. Athlic simplifies swimming amenity management.",
+        "Effortlessly oversee swimming pool bookings, programs, payments, and scheduling.",
       img: Swimming,
     },
     {
-      name: "Gym/Fitness Center",
+      name: "Gym",
       description:
-        "Schedule slots and manage programs like coaching and training. Athlic simplifies cricket amenity management.",
+        "Seamlessly manage gym bookings, programs, payments, and admissions.",
       img: Gym,
     },
     {
       name: "Yoga Studios",
       description:
-        "Schedule slots and manage coaching and training programs. Athlic streamlines volleyball amenity management.",
+        "Effortlessly manage yoga studio bookings, programs, payments, and admissions.",
       img: Yoga,
     },
     {
       name: "Banquet Halls",
-      description: "Athlic makes indoor sports management effortless.",
+      description:
+        "Easily manage banquet hall bookings, programs, payments, and dates.",
       img: hall,
+      marginTop: 5,
     },
   ];
   return (
@@ -52,9 +55,8 @@ const Sports = () => {
             >
               <h1>Turfs</h1>
               <p>
-                Manage football fields, schedule slots, and oversee various
-                programs such as coaching and training. Athlic simplifies
-                organizing and optimizing your football amenities.
+                Manage turf bookings, programs, payments, and timing slots
+                effortlessly.
               </p>
               <img src={Football} alt="Football Field" />
             </motion.div>
