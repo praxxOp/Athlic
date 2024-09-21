@@ -1,10 +1,10 @@
-.pricing__main{
-    background-color: black;
-    width: 100%;
-    height: 150vh;
+.pricing__main {
+  background-color: black;
+  width: 100%;
+  height: 150vh;
 }
-.pricing__main__heading{
-    width: 100%;
+.pricing__main__heading {
+  width: 100%;
   height: 50vh;
   padding-left: 20px;
   display: flex;
@@ -12,15 +12,93 @@
   flex-direction: column;
   justify-content: center;
 }
-.pricing__main__heading h1{
-    font-size: 20vw;
+.pricing__main__heading h1 {
+  font-size: 20vw;
   font-family: fk;
   letter-spacing: 5px;
   line-height: 85%;
   color: #c1c1bd;
 }
-.pricing__main__heading h2{
-    font-family: robert;
-    font-size: 1.2vw;
-    color: #c1c1bd;
+.pricing__main__heading h2 {
+  font-family: robert;
+  font-size: 1.2vw;
+  color: #c1c1bd;
+}
+.pricing__section {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.pricing__section__container {
+  width: 95vw;
+  height: 30vh;
+  display: flex;
+  background: rgba(3, 3, 3, 0.25);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #c1c1bd;
+}
+
+.pricing__section__container h1 {
+  font-family: robert;
+  height: 100%;
+  width: 23.75vw;
+  font-size: 3vh;
+  padding-left: 2vw;
+  padding-top: 5vh;
+}
+.pricing__section__container__facilities {
+  width: 23.75vw;
+  height: 100%;
+  padding-left: 2vw;
+  padding-top: 5vh;
+}
+.pricing__section__container__facilities h4 {
+  font-family: robert;
+  font-size: 2vh;
+  color: #848484;
+  height: 7vh;
+  width: 12vw;
+}
+.pricing__section__container__pricing {
+  width: 23.75vw;
+  height: 100%;
+  padding-left: 2vw;
+  color: #c1c1bd;
+  padding-top: 5vh;
+}
+.pricing__section__container__pricing h2 {
+  font-size: 10vh;
+  font-family: robert;
+}
+
+.pricing__section__container__pricing h4 {
+  font-family: robert;
+}
+.pricing__section__container__button {
+  width: 23.75vw;
+  height: 100%;
+  padding-left: 2vw;
+  padding-top: 5vh;
+}
+.pricing__section__container__button h2 {
+  width: 10vw;
+  color: #c1c1bd;
+  height: 7vh;
+  border-radius: 30px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: robert;
+  font-size: 1vw;
+  background: rgba(3, 3, 3, 0.25);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
