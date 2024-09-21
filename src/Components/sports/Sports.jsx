@@ -2,35 +2,35 @@ import React from "react";
 import "./Sports.css";
 import Football from "/Assets/Football.jpg";
 import Swimming from "/Assets/Swimming.jpg";
-import cricket from "/Assets/cricket.webp";
-import Volleyball from "/Assets/Volleyball.jpg";
-import Indoor from "/Assets/Indoor.jpg";
+import Gym from "/Assets/gym_center.avif";
+import Yoga from "/Assets/YogaStudios.webp";
+import hall from "/Assets/Hall.jpg";
 import ScrollToTop from "../ScrollToTop";
 import { motion } from "framer-motion";
 const Sports = () => {
   const sports = [
     {
-      name: "Swimming",
+      name: "Swimming Pools",
       description:
         "Schedule pool slots and manage programs like lessons and training. Athlic simplifies swimming amenity management.",
       img: Swimming,
     },
     {
-      name: "Cricket",
+      name: "Gym/Fitness Center",
       description:
         "Schedule slots and manage programs like coaching and training. Athlic simplifies cricket amenity management.",
-      img: cricket,
+      img: Gym,
     },
     {
-      name: "volleyballl",
+      name: "Yoga Studios",
       description:
         "Schedule slots and manage coaching and training programs. Athlic streamlines volleyball amenity management.",
-      img: Volleyball,
+      img: Yoga,
     },
     {
-      name: "indoor sports",
+      name: "Banquet Halls",
       description: "Athlic makes indoor sports management effortless.",
-      img: Indoor,
+      img: hall,
     },
   ];
   return (
@@ -38,8 +38,8 @@ const Sports = () => {
       <ScrollToTop />
       <div className="sports__main">
         <div className="sports__main__heading">
-          <h1>SPORTS</h1>
-          <h2>Supported Sports.</h2>
+          <h1>amenities</h1>
+          <h2>Supports all amenities.</h2>
         </div>
         <div className="sports__main__GroupSection">
           <div className="sports__main__GroupSection__left">
@@ -50,7 +50,7 @@ const Sports = () => {
               }}
               className="GroupSection__left__container"
             >
-              <h1>football</h1>
+              <h1>Turfs</h1>
               <p>
                 Manage football fields, schedule slots, and oversee various
                 programs such as coaching and training. Athlic simplifies
