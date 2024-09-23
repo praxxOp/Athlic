@@ -1,6 +1,6 @@
 import React from "react";
 import "./LogIn.css";
-import Building from "/Assets/black_building.gif"
+import Building from "/Assets/ColorFullGif.gif"
 import { motion } from "framer-motion";
 const LogIn = () => {
   return (
@@ -8,6 +8,7 @@ const LogIn = () => {
       <div className="Login__main">
         <div className="Login__main__video">
         <img src={Building} alt="Building GIF" />
+        <h2>Athlic Corporation © 2024</h2>
         </div>
         <div className="Login__main__right">
             <div className="Login__main__right__heading">
@@ -17,7 +18,7 @@ const LogIn = () => {
             <div className="Login__main__right__button">
                 <motion.h1
                 whileHover={{
-                    backgroundColor : "aliceblue",
+                    backgroundColor : "#c1c1bd",
                 }} >SignIn With Google</motion.h1>
             </div>
         </div>
