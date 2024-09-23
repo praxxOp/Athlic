@@ -16,10 +16,11 @@ const About = () => {
               <h4>Facility Bookings Per Month.</h4>
               <h1>1000+</h1>
               <p>
-                Manage and schedule various sports facilities with ease. From
-                booking football fields to indoor courts, our platform ensures
-                smooth coordination, helping clubs and athletes optimize their
-                amenities
+                Seamlessly manage and schedule various residential amenities,
+                from sports facilities like turfs and swimming pools to banquet
+                halls and gyms. Our platform simplifies bookings and admissions,
+                ensuring efficient coordination and maximizing the use of all
+                amenities.
               </p>
             </div>
           </div>

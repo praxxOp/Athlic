@@ -8,6 +8,7 @@ import App from './App.jsx'
 import './index.css'
 import Sports from './Components/sports/Sports.jsx';
 import Pricing from './Components/Pricing/Pricing.jsx';
+import LogIn from './Components/LogIn/LogIn.jsx';
 
 
 
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
   {
     path:"/pricing",
     element : <Pricing/>
+  },
+  {
+    path:"/login",
+    element : <LogIn/>
   }
 ]);
 
