@@ -20,6 +20,7 @@ const LogIn = () => {
                 whileHover={{
                     backgroundColor : "#c1c1bd",
                 }} >SignIn With Google</motion.h1>
+                <p>(Currently, we only support Google Sign-In for authentication.)</p>
             </div>
         </div>
       </div>

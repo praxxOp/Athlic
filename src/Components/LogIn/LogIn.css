@@ -58,7 +58,8 @@
   height: 50%;
   width: 100%;
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   padding-top: 10vh;
 }
 
@@ -72,4 +73,14 @@
   background-color: brown;
   font-family: robert;
   font-size: 1.2vw;
+}
+.Login__main__right__button p{
+  display: flex;
+  justify-content: center;
+  color: #c1c1bd;
+  font-size: 0.8vw;
+  font-family: robert;
+  margin-top: 3vh;
+  width: 25vw;
+  
 }
