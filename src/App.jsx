@@ -1,23 +1,26 @@
-import React, { useEffect } from "react";
 import Frames from "./Components/Frames/Frames";
 import About from "./Components/About/About";
 import { ReactLenis, useLenis } from "lenis/react";
 import PortfolioLink from "./Components/portfolioLink/PortfolioLink";
 import Footer from "./Components/footer/Footer";
-import "./App.css"
+import "./App.css";
+import LoginButton from "./Components/LogIn/LogInButton/LoginButton";
 
 const App = () => {
-  const lenis = new useLenis()
   return (
     <>
-      <ReactLenis root options={{
-        lerp: 0.1,
-        smoothWheel: true
-      }}>
+      <ReactLenis
+        root
+        options={{
+          lerp: 0.1,
+          smoothWheel: true,
+        }}
+      >
+        <LoginButton />
         <Frames />
-        <PortfolioLink/>
+        <PortfolioLink />
         <About />
-        <Footer/>
+        <Footer />
       </ReactLenis>
     </>
   );

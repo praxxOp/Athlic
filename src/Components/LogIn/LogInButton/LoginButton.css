@@ -1,0 +1,18 @@
+.logIn__button {
+  position: fixed;
+  z-index: 99999;
+  bottom: 5%;
+  right: 3%;
+  width: 11vw;
+  height: 6vh;
+  display: flex;
+  align-items: center;
+  background: brown;
+  color: black;
+  justify-content: center;
+  transition: .5s linear;
+}
+.logIn__button h2{
+    font-family: robert;
+    font-size: 1.1vw;
+}
