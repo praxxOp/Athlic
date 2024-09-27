@@ -23,7 +23,7 @@ const framesOne = () => {
             >
               ATHLIC
             </motion.h1>
-            <h2>ATHLIC</h2>
+            <h2>athlic.</h2>
           </AnimatePresence>
         </div>
         <motion.h3

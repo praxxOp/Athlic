@@ -11,21 +11,23 @@
 }
 
 .framesOne__heading h1 {
-  font-family: fk;
-  color: #4b0082;
+  font-family: zentry;
+  letter-spacing: -6px;
+  color: black;
   line-height: 88%;
   z-index: 1;
   font-weight: 999;
   font-size: 20vw;
 }
 .framesOne__heading h2 {
-  font-family: zentry;
-  color: #9500ff;
-  font-size: 1.2vw;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-family: robert;
+  color: black;
+  font-size: 1.5vw;
 }
 .framesOne__main h3 {
-  color: #9500ff ;
+  color: #9500ff;
   position: absolute;
   bottom: 10%;
   right: 50%;
