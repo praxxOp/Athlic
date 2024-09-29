@@ -9,6 +9,7 @@ import './index.css'
 import Sports from './Components/sports/Sports.jsx';
 import Pricing from './Components/Pricing/Pricing.jsx';
 import LogIn from './Components/LogIn/LogIn.jsx';
+import Dashboard from './Components/Dashboard/Dashboard.jsx';
 
 
 
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
   {
     path:"/login",
     element : <LogIn/>
+  },
+  {
+    path:"/dashboard",
+    element : <Dashboard/>
   }
 ]);
 
