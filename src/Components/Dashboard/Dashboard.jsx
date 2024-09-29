@@ -1,6 +1,6 @@
 import React from "react";
 import AmountChart from "./AmountComponent/Amount";
-import "./dashboard.css";
+import "./Dashboard.css";
 const Dashboard = () => {
   return (
     <>
