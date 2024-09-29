@@ -1,7 +1,7 @@
 .amount-chart {
   width: 100%;
   max-height: 20rem;
-  max-width: 40em;
+  max-width: 35em;
   background: rgba(3, 3, 3, 0.25);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
