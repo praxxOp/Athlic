@@ -1,6 +1,7 @@
 import React from "react";
 import AmountChart from "./AmountComponent/Amount";
 import "./Dashboard.css";
+import Booking from "./BookingComponent/Booking";
 const Dashboard = () => {
   return (
     <>
@@ -10,6 +11,7 @@ const Dashboard = () => {
           <div className="dashboard-content__left"></div>
           <div className="dashboard-content__right">
             <div className="dashboard-content__right-up">
+              <Booking/>
               <AmountChart />
             </div>
           </div>

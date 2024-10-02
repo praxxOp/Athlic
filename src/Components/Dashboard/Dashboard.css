@@ -22,6 +22,7 @@
 .dashboard-content__right {
   width: 78%;
   height: 100%;
+
 }
 .dashboard-content__right-up {
   width: 100%;
@@ -29,5 +30,6 @@
   align-items: center;
   justify-content: flex-end;
   padding-right: 10px;
+  gap: 10px;
   height: 45%;
 }

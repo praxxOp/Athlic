@@ -1,0 +1,62 @@
+.card {
+  display: flex;
+  height: 100%;
+  max-height: 22rem;
+  width: 21em;
+  flex-direction: column;
+  background: rgba(67, 65, 65, 0.25);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.card-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  color: white;
+  font-family: robert;
+}
+
+.card-title {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 0.3rem;
+}
+
+.card-description {
+  font-size: 0.8rem;
+}
+
+.card-content {
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chart-container {
+  max-height: 125px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  padding: 1rem;
+  font-size: 0.8vw;
+  color: white;
+  font-family: robert;
+}
+
+.trending {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 500;
+}

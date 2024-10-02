@@ -1,11 +1,11 @@
 .amount-chart {
   width: 100%;
-  max-height: 20rem;
+  height: 100%;
+  max-height: 22rem;
   max-width: 35em;
-  background: rgba(3, 3, 3, 0.25);
+  background: rgba(67, 65, 65, 0.25);
   backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
-  border-radius: 10px;
+  -webkit-backdrop-filter: blur(4px);;
   border: 1px solid rgba(255, 255, 255, 0.18);
   color: white;
   padding: 1rem;
@@ -14,7 +14,7 @@
 }
 
 .amount-chart__header {
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 .amount-chart__description {
@@ -56,7 +56,7 @@
 }
 
 .amount-chart__footer {
-  margin-top: 1rem;
+  margin-top: 2rem;
   color: white;
 }
 
