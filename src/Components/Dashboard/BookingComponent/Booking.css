@@ -8,10 +8,12 @@
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border: 1px solid rgba(255, 255, 255, 0.18);
+  cursor: pointer;
 }
 
 .card-header {
   display: flex;
+  height: 10vh;
   flex-direction: column;
   justify-content: center;
   padding: 1rem;
@@ -38,7 +40,7 @@
 }
 
 .chart-container {
-  max-height: 125px;
+  max-height: 180px;
   display: flex;
   align-items: center;
   justify-content: center;

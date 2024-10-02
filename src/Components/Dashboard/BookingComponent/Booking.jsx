@@ -10,7 +10,7 @@ import {
 import "./Booking.css";
 
 const MAX_BOOKINGS = 1000;
-const currentBookings = 900; 
+const currentBookings = 800; 
 const chartData = [{ bookings: currentBookings, fill: "white" }];
 
 const bookingPercentage = (currentBookings / MAX_BOOKINGS) * 100;
@@ -34,7 +34,7 @@ export default function Booking() {
             innerRadius={70}
             outerRadius={100}
           >
-            <RadialBar dataKey="bookings" cornerRadius={5} />
+            <RadialBar dataKey="bookings" cornerRadius={5} animationDuration={2000} />
             <PolarRadiusAxis
               tick={false}
               tickLine={false}
