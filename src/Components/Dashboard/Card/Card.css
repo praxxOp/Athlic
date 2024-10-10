@@ -18,8 +18,9 @@
 }
 
 .Account-Card-Heading h1 {
-  font-size: 1.5vw;
-  font-family: zentry;
+  font-size: 1.2vw;
+  font-family: medium;
+  line-height: 120%;
   color: white;
   letter-spacing: 0.8px;
 }
