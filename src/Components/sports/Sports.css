@@ -46,14 +46,14 @@
 .GroupSection__left__container {
   width: 98.5%;
   height: 95%;
-  background: rgba(3, 3, 3, 0.25);
+  background: #15FF9E;
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border: 1px solid rgba(255, 255, 255, 0.18);
   padding-top: 20px;
   padding-left: 20px;
   overflow: hidden;
-  color: #c1c1bd;
+  color: black;
 }
 .GroupSection__left__container h1 {
   font-family: zentry;
@@ -81,14 +81,14 @@
 .GroupSection__right__containers {
   width: 24vw;
   height: 47vh;
-  background: rgba(3, 3, 3, 0.25);
+  background: #15FF9E;
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border: 1px solid rgba(255, 255, 255, 0.18);
   padding-top: 20px;
   padding-left: 20px;
   overflow: hidden;
-  color: #c1c1bd;
+  color: black;
 }
 
 .GroupSection__right__containers__heading h1 {

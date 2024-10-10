@@ -1,12 +1,54 @@
-.main-card{
-    height: 100%;
-    max-height: 22rem;
-    width: 21em;
-    background-image: url("/Assets/Card-Backgrpund/Bg3.jpg");
-    background-size: cover;
+.main-card {
+  height: 100%;
+  max-height: 22rem;
+  width: 21em;
+  background-image: url("/Assets/Card-Backgrpund/Bg5.jpg");
+  background-size: cover;
+  cursor: pointer;
+  position: relative;
 }
 
 .Account-Card-Heading {
-height: 20%;
-width: 100%;
+  height: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-left: 1vw;
+  flex-direction: column;
+}
+
+.Account-Card-Heading h1 {
+  font-size: 1.5vw;
+  font-family: zentry;
+  color: white;
+  letter-spacing: 0.8px;
+}
+
+.Account-Card-details {
+  height: 20%;
+  width: 100%;
+  padding-left: 1vw;
+}
+.Account-Card-details p {
+  width: 10vw;
+  font-family: robert;
+  color: white;
+  font-size: 0.9vw;
+}
+.Account-Card-button {
+  position: absolute;
+  bottom: 0%;
+  height: 20%;
+  width: 100%;
+  justify-content: flex-end;
+  padding-right: 0.9vw;
+  display: flex;
+  align-items: center;
+}
+
+.Account-Card-button h3 {
+  font-family: robert;
+  color: white;
+  font-size: 1vw;
+  border-bottom: 1px solid white;
 }
