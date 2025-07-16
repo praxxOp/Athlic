@@ -11,13 +11,13 @@
 }
 
 .framesOne__heading h1 {
-  font-family: zentry;
-  letter-spacing: -6px;
+  font-family: medium;
+  
   color: black;
   line-height: 88%;
   z-index: 1;
   font-weight: 999;
-  font-size: 20vw;
+  font-size: 10vw;
 }
 .framesOne__heading h2 {
   display: flex;
